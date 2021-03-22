@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+	<title>Welcome to Ahmad Tea</title>
+	<link rel="stylesheet" href="css/index-style.css">
+	<script src="javascript/index_script.js"></script>
+	<link rel="icon" href="img/logo.jpg"> <!--This logo will appear in the tab beside the title-->
+</head>
+<body>
+<div id="Header">
+	<div> 
+	<a href="index.html"><img src="img/ahmadtea-logo.png" alt="logo" class="logo"></a> <!--The logo in the header-->
+	</div>
+		<div id="float"> <!--This div is for the webpages. Each webpage is linked to its own link-->
+			<a href="WhoWeAre.html" class="menubt">WHO WE ARE</a> <!--When i click on WHO WE ARE in the header it will take me to this link-->
+			<a href="ContactUS.html" class="menubt">CONTACT US</a>
+			<a href="Shop.html" class="menubt" id="shopbt">SHOP</a>
+			<a href="Sign.html" class="menubt">SIGNUP</a>
+		</div>
+</div>
+<div class="body" style="padding-top:200px"> <!--First main block-->
+	<h3>Welcome to Ahmad Tea</h6>
+	<h1>Learn all about us by clicking the button</h1>
+<form action="WhoWeAre.html"><button class="button"> About us! </button></form>
+</div>
+
+<div class="body"> <!--second block-->
+		<h3>Here is a taste of some of our products!</h3>
+	<div id="products">
+		<img src="img/products/p1.png" class="product">
+		<img src="img/products/p2.png" class="product">
+		<img src="img/products/p3.png" class="product">
+	</div>
+		<h3>Find more in the shop</h3>
+	<form action="Shop.html">
+		<button class="button">Search Here</button>
+	</form>
+</div>
+
+<div class="body">
+		<h2> Early in the life of Ahmad Tea, our Chairman, Mr Rahim Afshar, promised, “I will not sell anything that I would not drink at home.” </h2>
+</div>
+
+<div class="body">
+		<h3> Learn how to make a proper tea with us!</h3>
+		<iframe width="960" height="540" src="https://www.youtube.com/embed/AzqW965Dz64" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+
+<!--End div with logo and social media icons-->
+<div id="end">
+
+<div id="innerend">
+		<img src="img/ahmadtea-logo.png" alt="logo" class="logo" id="endlogo">
+			<span>© 2020 Ahmad Tea.</span>
+	<div id="icons">
+		<a href="https://www.facebook.com/AhmadTea/">
+			<img src="img/icons/facebook.svg" class="icon">
+		</a>
+		<a href="https://www.instagram.com/ahmadtea/">
+			<img src="img/icons/insta.svg" class="icon">
+		</a>
+		<a href="https://twitter.com/ahmadteaUK">
+			<img src="img/icons/twitter.svg" class="icon">
+		</a>
+		<a href="https://www.youtube.com/AhmadTeaUK">
+			<img src="img/icons/youtube.svg" class="icon">
+		</a>
+	</div>
+</div>
+<button id="alwayson" onclick="topFunction()">▲</button>
+</body>
+</html>
